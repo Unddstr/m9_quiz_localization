@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.M9_quiz_localization" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/whiteBackground</item>
+        <item name="colorSecondary">@color/violet</item>
+        <item name="fontFamily">@font/opensans_regular</item>
+
+
+    </style>
+
+    <style name="Theme.M9_quiz_localization" parent="Base.Theme.M9_quiz_localization" />
+
+    <style name="questionsStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="resultStyle">
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@font/opensans_bold</item>
+    </style>
+</resources>
